@@ -1,0 +1,60 @@
+{
+  "site": {
+    "name": "North Ridge Aggregate Pit",
+    "location": "Colorado",
+    "production_mode": true,
+    "shift_name": "Day Shift"
+  },
+  "equipment": [
+    {
+      "id": "CR-101",
+      "name": "Primary Jaw Crusher",
+      "type": "crusher",
+      "bearing_temp_warning_c": 90,
+      "bearing_temp_alarm_c": 95,
+      "runtime_expected": true
+    },
+    {
+      "id": "CR-201",
+      "name": "Secondary Cone Crusher",
+      "type": "crusher",
+      "bearing_temp_warning_c": 95,
+      "bearing_temp_alarm_c": 100,
+      "runtime_expected": true
+    },
+    {
+      "id": "CV-301",
+      "name": "Main Transfer Conveyor",
+      "type": "conveyor",
+      "motor_current_warning_a": 100,
+      "motor_current_alarm_a": 110,
+      "runtime_expected": true
+    },
+    {
+      "id": "CV-401",
+      "name": "Radial Stacker Conveyor",
+      "type": "conveyor",
+      "motor_current_warning_a": 75,
+      "motor_current_alarm_a": 85,
+      "runtime_expected": true
+    },
+    {
+      "id": "PU-501",
+      "name": "Dust Suppression Water Pump",
+      "type": "pump",
+      "runtime_expected": false
+    },
+    {
+      "id": "GEN-601",
+      "name": "Site Diesel Generator",
+      "type": "generator",
+      "fuel_warning_percent": 25,
+      "fuel_alarm_percent": 15,
+      "runtime_expected": false
+    }
+  ],
+  "process_tags": {
+    "hopper_high_warning_percent": 85,
+    "hopper_high_alarm_percent": 90
+  }
+}

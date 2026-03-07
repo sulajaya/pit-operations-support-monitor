@@ -1,0 +1,23 @@
+[2026-03-06 08:00:00] ============================================================
+[2026-03-06 08:00:00] Pit operations monitor started for site: North Ridge Aggregate Pit
+[2026-03-06 08:00:00] Shift: Day Shift
+[2026-03-06 08:00:00] Monitoring equipment: CR-101, CR-201, CV-301, CV-401, PU-501, GEN-601
+[2026-03-06 08:00:00] ============================================================
+[2026-03-06 08:00:05] STATUS | EStop=0 | PowerAvail=1 | Hopper=84.6% | CR-101 Run=1 Temp=89.8C O/L=0 | CR-201 Run=1 Temp=94.2C O/L=0 | CV-301 Run=1 Current=101.5A Misalign=0 | CV-401 Run=1 Current=71.2A Misalign=0 | PU-501 Run=1 FlowOK=1 | GEN-601 Run=0 Fuel=37.8%
+[2026-03-06 08:00:05] WARNING: CV-301 Main Transfer Conveyor motor current elevated at 101.5 A
+[2026-03-06 08:00:10] STATUS | EStop=0 | PowerAvail=1 | Hopper=92.3% | CR-101 Run=1 Temp=91.2C O/L=0 | CR-201 Run=1 Temp=95.9C O/L=0 | CV-301 Run=1 Current=104.7A Misalign=0 | CV-401 Run=1 Current=79.4A Misalign=0 | PU-501 Run=1 FlowOK=1 | GEN-601 Run=0 Fuel=36.9%
+[2026-03-06 08:00:10] ALARM: Feed hopper high-high level at 92.3%
+[2026-03-06 08:00:10] WARNING: CR-101 Primary Jaw Crusher bearing temperature elevated at 91.2C
+[2026-03-06 08:00:10] WARNING: CR-201 Secondary Cone Crusher bearing temperature elevated at 95.9C
+[2026-03-06 08:00:10] WARNING: CV-301 Main Transfer Conveyor motor current elevated at 104.7 A
+[2026-03-06 08:00:15] STATUS | EStop=0 | PowerAvail=1 | Hopper=88.1% | CR-101 Run=0 Temp=97.2C O/L=1 | CR-201 Run=0 Temp=101.1C O/L=0 | CV-301 Run=0 Current=114.6A Misalign=1 | CV-401 Run=0 Current=86.3A Misalign=0 | PU-501 Run=0 FlowOK=0 | GEN-601 Run=0 Fuel=35.8%
+[2026-03-06 08:00:15] WARNING: Feed hopper high level at 88.1%
+[2026-03-06 08:00:15] ALARM: CR-101 Primary Jaw Crusher bearing temperature high at 97.2C
+[2026-03-06 08:00:15] ALARM: CR-101 Primary Jaw Crusher overload trip active
+[2026-03-06 08:00:15] ALARM: CR-201 Secondary Cone Crusher bearing temperature high at 101.1C
+[2026-03-06 08:00:15] ALARM: CV-301 Main Transfer Conveyor motor current high at 114.6 A
+[2026-03-06 08:00:15] ALARM: CV-301 Main Transfer Conveyor belt misalignment detected
+[2026-03-06 08:00:15] ALARM: CV-401 Radial Stacker Conveyor motor current high at 86.3 A
+[2026-03-06 08:00:15] DOWNTIME: CR-101 Primary Jaw Crusher unavailable during production mode
+[2026-03-06 08:00:15] DOWNTIME: CR-201 Secondary Cone Crusher unavailable during production mode
+[2026-03-06 08:00:15] DOWNTIME: CV-301 Main Transfer Conveyor unavailable during production mode
