@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+reports/
+equipment_status.log
+logs/
+recordings/
